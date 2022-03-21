@@ -3,64 +3,43 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Alicia Pérez Jiménez
+    tagline: Data Scientist
+    avatar: profile-apj.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: apj.ali@gmail.com
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    website: https://aliciapj.github.io/ #do not add http://
+    linkedin: aliciapj
+    github: aliciapj
+    twitter: '@alipeji'
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I'm a computer engineer with more than 10 years of professional experience, 
+      passionate about machine learning and software development and a enthusiastic 
+      of code quality and software that impact on the welfare of society. 
+      In addition to that, I am interested in the fight against bias and 
+      in favor of fairness in AI and projects with a focus on diversity and 
+      empowerment of social minorities in technology (and in society)
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Master en Big Data Science
+      university: MBIT School
+      time: 2015
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -69,9 +48,20 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Ingeniería Informática
+      university: Universidad Complutense de Madrid
+      time: 2010 - 2013
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Ingeniería Técnica en Informática de Gestión
+      university: Universidad Complutense de Madrid
+      time: 2004 - 2008
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -81,8 +71,8 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
+    - role: Data Scientist
+      time: 2018 - Present
       company: Startup Hubs, San Francisco
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -96,9 +86,9 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Backend Developer
+      time: 2016 - 2018
+      company: StyleSage
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -107,9 +97,9 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Software engineer
+      time: 2007 - 2016
+      company: Eptisa TI
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -119,75 +109,91 @@ experiences:
           - Bullet point
           - Bullet point
 projects:
-    title: Projects
+    title: Side Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Below you will find some side projects and contributions to open source 
+      libraries that I have done as volunteer or coaching activities
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: PyLadies Madrid co-organizer
+        link: "http://madrid.pyladies.com/"
+        tagline: "PyLadies chapter whose goal is to help and motivate more women to be active participants and leaders in the Python community."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: PyLadies Madrid website contributor
+        link: "http://madrid.pyladies.com/"
+        tagline: "Website of the Madrid chapter for PyLadies organization"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: PyCartoCiudad contributor
+        link: "https://pypi.org/project/pycartociudad/"
+        tagline: "Python functions to access the CartoCiudad REST and WPS API (REST y WPS) from IGN with spanish cartography services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Django-Girls coach and organizer
+        link: "https://djangogirls.org/en/malaga/"
+        tagline: "Django Girls organize free Python and Django workshops, create open sourced online tutorials and curate amazing first experiences with technology."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Tech Shessions coach
+        link: "https://techshessions.com/"
+        tagline: "Tech SHEsions is a free program held in Madrid that aims to empower women to participate as speakers at technology events."
 
 publications:
-    title: Publications
+    title: Talks
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Below you will find a list of the talks at events that I have given as a speaker at different technological events.
+      On each of the links you will find the slides, video (if any) and other materials related to the talk.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Que la generación Z no rompa tus modelos"
+        link: "https://www.youtube.com/watch?v=moISdWL3Us4"
+        authors: Alicia Pérez Jiménez
+        conference: T3chDays - T3chFest 2021, PyData Salamanca 2020, PyConES 2019
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Introducción al Machine Learning - Día de la mujer y la ciencia"
+        link: "https://speakerdeck.com/aliciapj/introduccion-al-machine-learning-11f"
+        authors: Alicia Pérez Jiménez
+        conference: "Colegio Nazaret Oporto - Día de la mujer y la ciencia 2021"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "The bad guys in AI: atacando sistemas de Machine Learning"
+        link: "https://www.youtube.com/watch?v=d-8DdW7MTxQ"
+        authors: Francisco Javier Ordoñez, Beatriz Gómez, Alicia Pérez Jiménez
+        conference: "T3chFest 2019, PyConES 2018"
 
-skills:
-    title: Skills &amp; Proficiency
+      - title: "Big data in Fashion"
+        link: "https://speakerdeck.com/aliciapj/data-konferences-kschool-2018"
+        authors: Francisco Javier Ordoñez, Alicia Pérez Jiménez
+        conference: "T3chFest 2019, PyConES 2018"
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+      - title: "Keynote de cierre"
+        link: "https://speakerdeck.com/aliciapj/django-girls-madrid-cierre"
+        authors: Alicia Pérez Jiménez
+        conference: "DjangoGirls Madrid, 2018"
 
-      - name: Javascript & jQuery
-        level: 98%
+      - title: "Machine learning for product matching: the fashion use case"
+        link: "https://www.youtube.com/watch?v=u1PFMUhuoSc"
+        authors: Francisco Javier Ordoñez, Alicia Pérez Jiménez
+        conference: "Big Data Spain, 2018"
 
-      - name: Angular
-        level: 98%
+      - title: "Py-Píldoras para tratar tu open data"
+        link: "https://speakerdeck.com/aliciapj/pyladiesmadrid-py-pildoras-para-tratar-tu-open-data"
+        authors: María Medina, Alicia Pérez Jiménez
+        conference: "OpenExpo, 2018"
 
-      - name: HTML5 & CSS
-        level: 95%
+      - title: "Geodjango y geoprocesamiento con Python"
+        link: "https://www.youtube.com/watch?v=u3_SVct1B3A"
+        authors: Alicia Pérez Jiménez
+        conference: "Python Madrid - Meetup, 2018"
 
-      - name: Ruby on Rails
-        level: 85%
+      - title: "Aplicaciones Geográficas con Django - No sólo de Javascript viven los mapas"
+        link: "https://www.youtube.com/watch?v=KMUbg092mtw"
+        authors: Alicia Pérez Jiménez
+        conference: "PyCon ES 2017"
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - title: "Retos de Programación y Estructuras de datos de Python"
+        link: "https://www.youtube.com/watch?v=xQj_s8oj4Bw"
+        authors: Javier Abadía, Alicia Pérez Jiménez
+        conference: "PyCon ES 2017"
+
+      - title: "Beautiful Python"
+        link: "https://www.youtube.com/watch?v=9xA6w3rmQ34"
+        authors: Alicia Pérez Jiménez
+        conference: "PyCon ES 2016, PyLadies Madrid - meetup 2017"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
